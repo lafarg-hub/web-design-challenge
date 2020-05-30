@@ -1,0 +1,137 @@
+body, html {
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgb(9, 17, 85), darkgray);
+}
+
+h4, h5 {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+}
+
+.card {
+    margin-top: 40px;
+    background-image: linear-gradient(rgba(6, 6, 88, 0.685), rgba(151, 151, 151, 0.5));
+    box-shadow: 5px 5px #1b1b1baf;
+}
+
+.sum-title {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.vis-title {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.division {
+    text-align: center;
+}
+
+hr {
+   width: 90%;
+   background-color: lightgray;
+}
+
+.landing-img {
+    height: 30%;
+    width: 30%;
+    margin: 10px 20px 20px 0;
+}
+
+p {
+    margin: 30px 20px 40px 20px;
+    line-height: 2.1em;
+}
+
+.landing-vis {
+    text-align: center;
+    margin: 1%;
+}
+
+.landing-vis img {
+    height: 90%;
+    width: 90%;
+    padding-top: 15px;
+}
+
+.side-plots {
+    margin-bottom: 10px;
+}
+
+.container {
+    vertical-align: center;
+    margin-bottom: 40px;
+}
+
+.title {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.caption {
+    margin: 0 0 20px 50px;
+}
+
+.comparison-graphs {
+    text-align: center;
+}
+
+.comparison-graphs img {
+    height: 80%;
+    width: 80%;
+}
+
+.comp-title {
+    padding-bottom: 10px;
+}
+
+.plot-outer {
+    text-align: center;
+}
+
+.plot {
+    height: 95%;
+    width: 95%;
+    margin-top: 20px;
+}
+
+.plot-side {
+    border: solid 1px black;
+}
+
+.outer {
+    margin-bottom: 40px;
+}
+
+table {
+    margin: 0 50px 20px 50px;
+}
+
+.table {
+    width: 91%;
+    margin-bottom: 25px;
+}
+
+table th {
+    color: gray;
+    background-color: rgba(6, 6, 88, 0.671);
+}
+
+tr:nth-child(even){
+    background-color: rgba(6, 6, 88, 0.26);
+}
+
+table tr:hover {
+    background-color: lightgray;
+}
+
+table td, table th {
+    padding: 5px;
+    border: 1px solid rgb(75, 75, 75);
+}
